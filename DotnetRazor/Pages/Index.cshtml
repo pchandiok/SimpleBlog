@@ -1,0 +1,14 @@
+﻿@page
+@model DotnetRazor.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Home</h1>
+<p>@Model.homeStartingContent</p>
+
+@foreach (var post in Model.posts)
+{
+    <h1>@post.Title</h1>
+    <p>@post.Body.Substring(0, 100).... <a href="/posts/@post.Title">Read More</a></p>
+}

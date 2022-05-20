@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "bJ+jaWyMFnNscFk2XOFo5xHo3HFeCkYxO8NWh8FZOQI=",
+  "Source": "DotnetRazor",
+  "BasePath": "_content/DotnetRazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DotnetRazor\\wwwroot",
+      "Source": "DotnetRazor",
+      "ContentRoot": "C:\\Users\\Puneet Chandiok\\source\\repos\\MyBlog\\DotnetRazor\\wwwroot\\",
+      "BasePath": "_content/DotnetRazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Puneet Chandiok\\source\\repos\\MyBlog\\DotnetRazor\\wwwroot\\styles.css",
+      "SourceId": "DotnetRazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Puneet Chandiok\\source\\repos\\MyBlog\\DotnetRazor\\wwwroot\\",
+      "BasePath": "_content/DotnetRazor",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}
